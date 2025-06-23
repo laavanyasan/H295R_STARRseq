@@ -19,6 +19,8 @@ library(DescTools)
 library(devtools)
 library(readxl)
 
+###Files in Source Data are "Supplementary FIgures 24,27" and "HEK Samples" respectively
+
 data <- read_excel("HEK-qpcrs.xlsx", col_names = TRUE)
 SampleNames <- read_excel("Sample_Names.xlsx", col_names=c("Row","Sample", "Rep"), sheet="Sample2")
 
