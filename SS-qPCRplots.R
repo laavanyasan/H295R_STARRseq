@@ -19,7 +19,7 @@ library(DescTools)
 library(devtools)
 library(readxl)
 
-##Note sheets in the source data file are : "Supplementary FIgure 28" and "Supplementary FIgure 28 Samples" respectively
+##Note sheets in the source data file are : "Figure 5c". "Figure 5d", "Supplementary Figure 28" and "H295R Samples" respectively
 #for loading the following tables. 
 
 data <- read_excel("H295Rsamples.xlsx", col_names = TRUE, sheet="Psamples")
